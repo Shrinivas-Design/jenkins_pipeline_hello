@@ -22,7 +22,7 @@ pipeline{
 				
 				//withENV(["anotherway_ENV_var= anotherway"]){
 				//echo "thirdway = ${env.anotherway_ENV_var}"
-					}
+					//}
 				}
 			}
 		}
