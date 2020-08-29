@@ -20,8 +20,8 @@ pipeline{
 				
 				echo "test_value_interactive= ${env.Variable_testName}"
 				
-				withENV(["anotherway_ENV_var= anotherway"]){
-				echo "thirdway = ${env.anotherway_ENV_var}"
+				//withENV(["anotherway_ENV_var= anotherway"]){
+				//echo "thirdway = ${env.anotherway_ENV_var}"
 					}
 				}
 			}
