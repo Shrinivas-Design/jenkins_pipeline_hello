@@ -5,7 +5,7 @@ pipeline{
 		}
 		
 		stages{
-			stage(Env varibales){
+			stage("Env varibales"){
 				environment{
 			      Name = "Alan"
 		        }
